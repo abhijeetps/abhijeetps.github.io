@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <!-- Meta Tags-->
@@ -32,9 +33,10 @@
         Links
         ==============
         -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" />     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>  
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="shortcut icon" href="images/favicon.ico">
         
@@ -42,56 +44,102 @@
         Scripts
         ==============
         -->
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
 
     </head>
 
     <body>
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-menu" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">Abhijeet Singh</span>
                 </div>
+                <!-- Tabs -->
+                <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                    <a href="#home" class="mdl-layout__tab is-active">Home</a>
+                    <a href="#about" class="mdl-layout__tab">About</a>
+                    <a href="#skills" class="mdl-layout__tab">Skills</a>
+                    <a href="#portfolio" class="mdl-layout__tab">Portfolio</a>
+                    <a href="#contact" class="mdl-layout__tab">Contact</a>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Abhijeet Singh</span>
+            </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-collapse-menu">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a title="Home" class="menu-btn home-btn" href="/" data-toggle="collapse" data-target="#navbar-collapse-menu" ><i class="fa fa-home" style></i><span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+        <main class="mdl-layout__content">
+          <section class="mdl-layout__tab-panel is-active" id="home">
+            <div class="page-content" id="home-content">
+                <img id="propic" src="img/propic.jpg" alt="Abhijeet Singh's profile picture.">
+                <h1 class="main-line">Hi, I'm Abhijeet!</h1>
+                <h3 class="tag-line">Developer. Quick Learner. Neophile.</h3>
+            </div>
+          </section>
+          <section class="mdl-layout__tab-panel" id="about">
+            <div class="page-content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-cell--10-col-tablet">
+                        <div class="about-card mdl-card mdl-shadow--2dp">
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">About Me</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                        My name is Abhijeet Singh and I'm currently pursuing my Undergraduate program in Computer Science and Engineering at IIIT Trichy.
+                                                                    
+                                </div>
+                                <div class="mdl-card__actions mdl-card--border">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://about.me/aps120797" target="_blank">
+                                        Know more about.me?
+                                    </a>
+                                </div>
+                                <div class="mdl-card__menu">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-phone"></div>
+                </div>
+            </div>
+          </section>
+          <section class="mdl-layout__tab-panel" id="skills">
+            <div class="page-content">
+                <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
+                        <div class="mdl-cell mdl-cell--8-col mdl-cell--10-col-tablet">
+                            <div class="skill-card mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">My Skill</h2>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a title="View me on LinkedIn" href="https://www.linkedin.com/in/aps120797/" target="_blank" data-toggle="collapse" data-target="#navbar-collapse-menu"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a title="View me on GitHub" href="https://github.com/aps120797" target="_blank" data-toggle="collapse" data-target="#navbar-collapse-menu"><i class="fa fa-github"></i></a></li>          
-                        <li><a title="View me on Quora" href="https://www.quora.com/profile/Abhijeet-Singh-484/" target="_blank" data-toggle="collapse" data-target="#navbar-collapse-menu"><i class="fa fa-quora"></i></a></li>
-                        <li><a title="View me on Medium" href="https://medium.com/@aps120797" target="_blank" data-toggle="collapse" data-target="#navbar-collapse-menu"><i class="fa fa-medium"></i></a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        </a>
+                                    </div>
+                                    <div class="mdl-card__menu">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-phone"></div>
+                    </div>
+            </div>
+          </section>
+          <section class="mdl-layout__tab-panel" id="portfolio">
+            <div class="page-content">
 
-        <header class="header container">
-            <h1 id="page-header" class="text-center">
-                Hi! I am Abhijeet Singh.
-            </h1>
-            <hr/>
-        </header>
+            </div>
+          </section>
+          <section class="mdl-layout__tab-panel" id="contact">
+            <div class="page-content">
 
-        <main class="content container">
+            </div>
+          </section>
         </main>
-
-        <footer class="text-center">
-            <i title="Coded" class="fa fa-code"></i> with <i title="Love" class="fa fa-heart-o"></i>, by Abhijeet Singh 
-        </footer>
-
+      </div>
+      
     </body>
 </html>

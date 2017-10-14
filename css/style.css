@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.page-content {
+    margin-top: 10px;
+}
+
+.main-line {
+    font-weight: 300;
+    text-align: center;
+    color: #fafafa;
+}
+
+.tag-line{
+    font-weight: 300;
+    text-align: center;
+    color: #fafafa;
+}
+
+#propic {
+    display: block;
+    margin: 0 auto;
+    height: 50vh;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.about-card.mdl-card {
+    width: 100%;
+}
+
+.about-card > .mdl-card__title {
+    color: #ffffff;
+    height: 176px;
+    background: url('../img/aboutme.jpg') center / cover;
+}
+
+.about-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.skill-card.mdl-card {
+    width: 100%;
+}
+
+.skill-card > .mdl-card__title {
+    color: #ffffff;
+    height: 176px;
+    background: url('../img/myskill.jpg') center / cover;
+}
+
+.skill-card > .mdl-card__menu {
+    color: #ffffff;
+}
