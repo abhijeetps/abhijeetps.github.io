@@ -14,15 +14,18 @@ body {
     margin-top: 10px;
 }
 
-.main-line {
+#home-content {
+    text-align: center;
+}
+
+#main-line {
     font-weight: 300;
     text-align: center;
     color: #fafafa;
 }
 
-.tag-line{
+#tag-line, .typed-cursor {
     font-weight: 300;
-    text-align: center;
     color: #fafafa;
 }
 
@@ -41,7 +44,7 @@ body {
 
 .about-card > .mdl-card__title {
     color: #ffffff;
-    height: 176px;
+    height: 256px;
     background: url('../img/aboutme.jpg') center / cover;
 }
 
@@ -55,10 +58,19 @@ body {
 
 .skill-card > .mdl-card__title {
     color: #ffffff;
-    height: 176px;
+    height: 256px;
     background: url('../img/myskill.jpg') center / cover;
 }
 
 .skill-card > .mdl-card__menu {
     color: #ffffff;
+}
+
+.mdl-card__supporting-text{
+    text-align: justify;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default; 
 }
