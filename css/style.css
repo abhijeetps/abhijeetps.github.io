@@ -10,8 +10,18 @@ body {
     background-size: cover;  
 }
 
+.mdl-layout-title{
+    font-size: 24px;
+}
+
 .page-content {
     margin-top: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 #home-content {
