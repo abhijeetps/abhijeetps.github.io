@@ -74,3 +74,131 @@ a.disabled {
     pointer-events: none;
     cursor: default; 
 }
+
+.iiitt-website-card.mdl-card {
+    width: 100%;
+}
+
+.iiitt-website-card > .mdl-card__title {
+    color: #ffffff;
+    height: 128px;
+    background: url('../img/iiitt-website.jpg') center / cover;
+}
+
+.iiitt-website-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.image-editor-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.image-editor-card > .mdl-card__title {
+    color: white;
+    height: 128px;
+    background: url('../img/image-editor.jpg') center / cover;
+}
+
+.image-editor-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.shopping-app-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.shopping-app-card > .mdl-card__title {
+    color: #ffffff;
+    height: 128px;
+    background: url('../img/shopping-app.jpg') center / cover;
+}
+
+.shopping-app-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.calculator-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.calculator-card > .mdl-card__title {
+    color: white;
+    height: 128px;
+    background: url('../img/calculator.jpg') center / cover;
+}
+
+.calculator-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.wikipedia-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.wikipedia-card > .mdl-card__title {
+    color: white;
+    height: 128px;
+    background: url('../img/wikipedia.jpg') center / cover;
+}
+
+.wikipedia-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.quote-machine-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.quote-machine-card > .mdl-card__title {
+    color: white;
+    height: 128px;
+    background: url('../img/quote-machine.jpg') center / cover;
+}
+
+.quote-machine-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+.atrang-card.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+
+.atrang-card > .mdl-card__title {
+    color: white;
+    height: 128px;
+    background: url('../img/atrang.png') center / cover;
+}
+
+.atrang-card > .mdl-card__menu {
+    color: #ffffff;
+}
+
+#thank-you {
+    padding: 25px;
+    font-weight: 300;
+    text-align: center;
+    color: #fafafa;
+}
+
+#contact-me-line {
+    text-align: center;
+    color: #fafafa;
+}
+
+h4 {
+    text-align: center;
+    color: #fafafa;
+}
+
+#contact-details {
+    margin-top: 20px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    text-align: left;
+}
