@@ -80,11 +80,6 @@ body {
     text-align: justify;
 }
 
-a.disabled {
-    pointer-events: none;
-    cursor: default; 
-}
-
 .iiitt-website-card.mdl-card {
     width: 100%;
 }
