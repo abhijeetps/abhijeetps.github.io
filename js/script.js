@@ -1,6 +1,6 @@
 
 var typed = new Typed('#tag-line', {
-    strings: ["Developer.^500 Quick Learner.^500 Neophile."],
+    strings: ["Developer.^500 Dreamer.^500 Achiever."],
     typeSpeed: 10,
     startDelay: 1000,
     fadeOut: true,
