@@ -1,0 +1,25 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Abhijeet Singh",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://aps120797.github.io/",
+    "short_name": "Abhijeet",
+    "theme_color": "#212121",
+    "description": "Abhijeet's Portfolio. A CSE Undergrad at IIIT Trichy. Developer, Dreamer, Achiever.",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/img/favicon.ico",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/images/img/favicon.ico",
+            "sizes": "16x16"
+        }
+    ]
+}
